@@ -86,7 +86,7 @@ Erstelle einen Agenten, der Fragen aus Kontext aus einer Textdatei beantwortet.
 - Gib deinem Agenten eine Beschreibung, z.B.:
 
 ```
-An Expert Agent that has access to knowledge all around the IKK
+An Expert Agent that has access to knowledge all around the IKK.
 ```
 
 - Füge das Tool "ikk-knowledge" hinzu
@@ -102,6 +102,13 @@ Erstelle einen Agenten, der einen Agent Flow benutzt um Emails zu bearbeiten
 
 - Klicke "Create agent"
 - Nenne deinen Agenten "04_MAIL_AGENT_FP\_[Deine Initialien]"
+- Gib deinem Agenten eine Beschreibung, z.B.:
+
+```
+An agent that can draft responses to incoming insurance related emails.
+```
+
+- Klicke "Add Tool" -> "Create an agentic workflow"
 
 ### Multi-Agent
 

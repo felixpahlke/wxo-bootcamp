@@ -1,0 +1,25 @@
+sender: Thomas Becker
+email: thomas.becker@email.de
+subject: Terminanfrage: Beratung zu Zusatzleistungen
+
+body:
+Sehr geehrtes Team,
+
+ich würde gerne einen Beratungstermin zu Ihren Zusatzleistungen vereinbaren.
+
+Interessensgebiete:
+- Zahnzusatzversicherung
+- Auslandsreisekrankenversicherung  
+- Naturheilverfahren
+- Chefarztbehandlung
+
+Verfügbare Zeiten:
+- Montag bis Freitag: 14:00 - 18:00 Uhr
+- Bevorzugt: Persönlicher Termin in der Geschäftsstelle
+
+Bitte teilen Sie mir einen passenden Termin mit.
+
+Mit freundlichen Grüßen,
+Thomas Becker
+Versichertennummer: 55667788
+

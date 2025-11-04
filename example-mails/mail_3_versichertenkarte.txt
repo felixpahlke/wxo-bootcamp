@@ -1,0 +1,22 @@
+sender: Maria Schmidt
+email: maria.schmidt@email.de
+subject: Versichertenkarte verloren - Ersatzkarte beantragen
+
+body:
+Guten Tag,
+
+ich habe leider meine Versichertenkarte verloren und benötige dringend eine Ersatzkarte.
+
+Details:
+- Versichertennummer: 11223344
+- Verloren am: 12.01.2024
+- Ort: Hamburg Hauptbahnhof
+- Dringlichkeit: Habe morgen einen Arzttermin
+
+Können Sie mir bitte eine Ersatzkarte zusenden oder eine vorläufige Bescheinigung ausstellen?
+
+Vielen Dank für Ihre schnelle Hilfe.
+
+Mit freundlichen Grüßen,
+Maria Schmidt
+

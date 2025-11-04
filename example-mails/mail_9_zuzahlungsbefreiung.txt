@@ -1,0 +1,27 @@
+sender: Sabine Wagner
+email: sabine.wagner@email.de
+subject: Antrag auf Zuzahlungsbefreiung - Diabetes Typ 2
+
+body:
+Sehr geehrte Damen und Herren,
+
+aufgrund meiner chronischen Erkrankung beantrage ich hiermit eine Zuzahlungsbefreiung für das Jahr 2025.
+
+Details zu meiner Erkrankung:
+- Diagnose: Diabetes mellitus Typ 2
+- Erstdiagnose: März 2019
+- Behandelnder Arzt: Dr. med. Zimmermann, Diabetologie
+- Regelmäßige Medikation erforderlich
+
+Meine monatlichen Zuzahlungen:
+- Medikamente: ca. 45,00 €
+- Blutzuckerteststreifen: ca. 15,00 €
+- Arztbesuche: ca. 20,00 €
+- Gesamt pro Monat: ca. 80,00 €
+
+Ich bitte um Prüfung meines Antrags und Zusendung der entsprechenden Bescheinigung.
+
+Mit freundlichen Grüßen,
+Sabine Wagner
+Versichertennummer: 22334455
+

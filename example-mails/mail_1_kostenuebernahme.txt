@@ -1,0 +1,21 @@
+sender: Anna Müller
+email: anna.mueller@email.de
+subject: Kostenübernahme für Physiotherapie
+
+body:
+Sehr geehrte Damen und Herren,
+
+nach meinem Bandscheibenvorfall im Dezember 2023 hat mein Orthopäde mir eine Physiotherapie verordnet.
+
+Details zu meiner Anfrage:
+- Diagnose: Bandscheibenvorfall L4/L5
+- Verordnete Behandlungen: 20 Einheiten Physiotherapie
+- Behandlungszeitraum: 6 Wochen
+- Praxis: Physiotherapie Schmidt, München
+
+Ich bitte um schnellstmögliche Bearbeitung, da die Schmerzen sehr stark sind.
+
+Mit freundlichen Grüßen,
+Anna Müller
+Versichertennummer: 12345678
+

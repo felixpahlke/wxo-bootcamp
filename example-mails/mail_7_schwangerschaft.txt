@@ -1,0 +1,23 @@
+sender: Julia Hoffmann
+email: julia.hoffmann@email.de
+subject: Schwangerschaft - Anmeldung und Leistungen
+
+body:
+Sehr geehrtes Team,
+
+ich bin schwanger (8. Woche) und möchte mich über die Leistungen informieren.
+
+Meine Fragen:
+1. Welche Vorsorgeuntersuchungen werden übernommen?
+2. Kostenübernahme für Hebamme
+3. Mutterschaftsgeld - Antragsstellung
+4. Zusätzliche Leistungen für Schwangere
+
+Erwarteter Geburtstermin: September 2024
+
+Ich freue mich auf Ihre Informationen und einen Beratungstermin.
+
+Mit freundlichen Grüßen,
+Julia Hoffmann
+Versichertennummer: 33445566
+

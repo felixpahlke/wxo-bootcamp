@@ -1,0 +1,21 @@
+sender: Heinrich Müller
+email: heinrich.mueller@email.de
+subject: Beschwerde über Wartezeit beim Facharzt
+
+body:
+Sehr geehrte Damen und Herren,
+
+ich beschwere mich über die unzumutbare Wartezeit für einen Facharzttermin.
+
+Situation:
+- Überweisung zum Kardiologen seit 15.12.2023
+- Nächster freier Termin: Mai 2024
+- Wartezeit: 5 Monate
+- Beschwerden: Herzrhythmusstörungen
+
+Diese Wartezeit ist bei meinen Beschwerden nicht akzeptabel. Ich bitte um Ihre Unterstützung bei der Terminvermittlung.
+
+Mit freundlichen Grüßen,
+Heinrich Müller
+Versichertennummer: 66778899
+

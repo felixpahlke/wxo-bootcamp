@@ -1,0 +1,22 @@
+sender: Sandra Fischer
+email: sandra.fischer@email.de
+subject: Rückerstattung Arztkosten - Privatrechnung
+
+body:
+Sehr geehrte Damen und Herren,
+
+ich bitte um Erstattung der Kosten für eine privatärztliche Behandlung.
+
+Behandlungsdetails:
+- Datum: 08.01.2024
+- Arzt: Dr. med. Hartmann, Privatpraxis
+- Behandlung: Notfallbehandlung am Wochenende
+- Rechnungsbetrag: 180,00 €
+- Grund: Kein Kassenarzt verfügbar
+
+Die Originalrechnung ist beigefügt. Ich bitte um zeitnahe Bearbeitung.
+
+Mit freundlichen Grüßen,
+Sandra Fischer
+Versichertennummer: 99887766
+
