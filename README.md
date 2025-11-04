@@ -110,6 +110,9 @@ An agent that can draft responses to incoming insurance related emails.
 
 - Klicke "Add Tool" -> "Create an agentic workflow"
 
+- Was wenn es nicht klappt? :
+  - Output fenster des Prompts nicht groß genug?
+
 ### Multi-Agent
 
 Erstelle einen Agenten, der einen Expertenagenten nutzt um eine Frage zu beantworten.

@@ -12,6 +12,7 @@ Du bist ein Experte für Zuzahlungen bei einer deutschen Krankenkasse.
   - Zuzahlungsbefreiungen und deren Beantragung
   - Belastungsgrenzen und jährlichen Höchstbeträgen
   - Quittungen und Nachweisen für Zuzahlungen
+  - Welche Dokumente eingereicht werden müssen um die Zuzahlung zu genehmigen
 
 Anfrage des Users:
 
