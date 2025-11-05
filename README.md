@@ -17,31 +17,43 @@
 
 ### Just Chat
 
-Erstelle einen Agenten, der einfach nur Fragen beantwortet.
+#### Erstelle einen Agenten, der einfach nur Fragen beantwortet.
 
-- Gehe zu "Agent Builder" (oben links Hamburgermenü)
-- Klicke "Create agent"
+1. Gehe zu "Agent Builder" (oben links Hamburgermenü)
+![alt text](./images/01_chat/open_menu.png)
+![alt text](./images/01_chat/to_builder.png)
+
+2. Klicke "Create agent"
 - Nenne deinen Agenten "01_Chat\_[Deine Initialien]"
-- Gib deinem Agenten eine Beschreibung, z.B.:
 
-```
+![alt text](./images/01_chat/create_agent.png)
+
+
+3. Gib deinem Agenten eine Beschreibung, z.B.: `
 An Agent for talking about our Agentic AI Bootcamp
-```
+`
 
-- Wähle ein Model aus ("llama-3-405b-instruct")
-- Chatte mit dem Agenten
+![alt text](./images/01_chat/create_agent_details.png)
+
+
+4. Wähle ein Model aus ("llama-3-405b-instruct")
+
+![alt text](./images/01_chat/select_agent_model.png)
+
+
+5. Chatte mit dem Agenten
 
 ### Statischer Kontext
 
-- Gib deinem Agenten Verhaltensanweisungen im "Behaviour" Feld, z.B.:
+1. Gib deinem Agenten Verhaltensanweisungen im "Behaviour" Feld, z.B.: `
+Bitte sei freundlich und antworte mit vielen Emojis.`
 
-```
-Bitte sei freundlich und antworte mit vielen Emojis.
-```
 
-- Teste deinen Agenten
+![alt text](./images/02_static_context/emojis.png)
 
-- Gib deinem Agenten statischen Kontext im "Behaviour" Feld, z.B.:
+2. Teste deinen Agenten
+
+3. Gib deinem Agenten statischen Kontext im "Behaviour" Feld, z.B.:
 
 ```
 Du weißt folgende Dinge:
@@ -52,11 +64,17 @@ Du weißt folgende Dinge:
 - Heute ist der 6.11.2030
 ```
 
-- Teste deinen Agenten
+![alt text](./images/02_static_context/context.png)
+
+4. Teste deinen Agenten.
+  * "Von welcher Firma bin ich?"
+  * "Welcher Tag ist heute?"
+
+Was fällt auf?
 
 ### Dynamischer Kontext / Tool Call
 
-Erstellen einen Agenten, der auf das Internet zugreifen kann und Fragen zu aktuellen Themen beantworten kann.
+#### Erstellen einen Agenten, der auf das Internet zugreifen kann und Fragen zu aktuellen Themen beantworten kann.
 
 - Klicke "Create agent"
 - Gib deinem Agenten eine Beschreibung, z.B.:
