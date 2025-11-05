@@ -286,6 +286,6 @@ Erstelle einen Agenten, der mehrere Expertenagenten nutzt um eine Frage zu beant
 
 ## TODO
 
-- RAG auf knowledge umstellen
 - Agentflow bschreiben
 - login über ibm cloud dokumentieren
+- create ikk5-ikk13
