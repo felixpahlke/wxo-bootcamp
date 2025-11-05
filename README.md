@@ -16,14 +16,17 @@
 
 ### Get Access to watsonx Orchestrate
 
-    - Create IBMId:
+    - IBMId erstellen:
     https://www.ibm.com/account/reg/us-en/signup?formid=urx-19776
-    - Get invited to Techzone via Techzone
-    - Click "HERE" to join Cloud Account from Mail
-    - Create Cloud Account
-    - Signout
-    - Go to new mail, "Join IBM Cloud Account"
-    - Login to watsonx Orchestrate
+    - Email den IBMern sagen
+    - Einladung von der Techzone erhalten und man bekommt zwei Mails. In der "You've been invited to an IBM cloud account" auf "Join here" klicken.
+    - Anmelden 2FA nutzen (Email ist am einfachsten)
+    - Im IBM Cloud account sollte den Account sehen. Klicke auf das Burger Menu
+  ![alt text](./images/00_login/logged_in.png)
+    - Klicke auf "AI/Machine Learning" in der Liste
+  ![alt text](./images/00_login/resources.png)
+    - Klicke launch
+  ![alt text](./images/00_login/launch.png)
 
 ## Bootcamp
 
