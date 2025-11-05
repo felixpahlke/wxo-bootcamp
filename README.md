@@ -20,26 +20,22 @@
 #### Erstelle einen Agenten, der einfach nur Fragen beantwortet.
 
 1. Gehe zu "Agent Builder" (oben links Hamburgermenü)
-![alt text](./images/01_chat/open_menu.png)
-![alt text](./images/01_chat/to_builder.png)
+   ![alt text](./images/01_chat/open_menu.png)
+   ![alt text](./images/01_chat/to_builder.png)
 
 2. Klicke "Create agent"
+
 - Nenne deinen Agenten "01_Chat\_[Deine Initialien]"
 
 ![alt text](./images/01_chat/create_agent.png)
 
-
-3. Gib deinem Agenten eine Beschreibung, z.B.: `
-An Agent for talking about our Agentic AI Bootcamp
-`
+3. Gib deinem Agenten eine Beschreibung, z.B.: `An Agent for talking about our Agentic AI Bootcamp`
 
 ![alt text](./images/01_chat/create_agent_details.png)
-
 
 4. Wähle ein Model aus ("llama-3-405b-instruct")
 
 ![alt text](./images/01_chat/select_agent_model.png)
-
 
 5. Chatte mit dem Agenten
 
@@ -47,7 +43,6 @@ An Agent for talking about our Agentic AI Bootcamp
 
 1. Gib deinem Agenten Verhaltensanweisungen im "Behaviour" Feld, z.B.: `
 Bitte sei freundlich und antworte mit vielen Emojis.`
-
 
 ![alt text](./images/02_static_context/emojis.png)
 
@@ -67,8 +62,9 @@ Du weißt folgende Dinge:
 ![alt text](./images/02_static_context/context.png)
 
 4. Teste deinen Agenten.
-  * "Von welcher Firma bin ich?"
-  * "Welcher Tag ist heute?"
+
+- "Von welcher Firma bin ich?"
+- "Welcher Tag ist heute?"
 
 Was fällt auf?
 
@@ -76,14 +72,18 @@ Was fällt auf?
 
 #### Erstellen einen Agenten, der auf das Internet zugreifen kann und Fragen zu aktuellen Themen beantworten kann.
 
-1. Klicke "Create agent"
-2. Gib deinem Agenten eine Beschreibung, z.B.:
-`An Agent that can search the web and answer questions on anything that we can find on the web.
-`
-3. Wähle ein Model aus ("llama-3-405b-instruct")
-4. Klicke "Add Tool"
-5. Klicke "Add from local instance"
-6. Suche nach "web-search" und füge die beiden tools hinzu
+- Schließe den vorherigen Agenten
+- Klicke "Create agent"
+- Gib deinem Agenten eine Beschreibung, z.B.:
+
+```
+An Agent that can search the web and answer questions on anything that we can find on the web.
+```
+
+- Wähle ein Model aus ("llama-3-405b-instruct")
+- Klicke "Add Tool"
+- Klicke "Add from local instance"
+- Suche nach "web-search" und füge die beiden tools hinzu
 - Frage deinen Agenten etwas, z.B.
 
 ```
@@ -132,9 +132,8 @@ An agent that can draft responses to incoming insurance related emails.
 
 Erstelle einen Agenten, der einen Expertenagenten nutzt um eine Frage zu beantworten.
 
-
 ## TODO
 
-* RAG auf knowledge umstellen
-* Agentflow bschreiben
-* login über ibm cloud dokumentieren
+- RAG auf knowledge umstellen
+- Agentflow bschreiben
+- login über ibm cloud dokumentieren
