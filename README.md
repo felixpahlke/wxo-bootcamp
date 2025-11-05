@@ -96,15 +96,13 @@ An Agent that can search the web and answer questions on anything that we can fi
 
 5. Wähle ein Model aus ("llama-3-405b-instruct")
 6. Klicke "Add Tool"
-![alt text](./images/03_tool_calls/add_tool.png)
+   ![alt text](./images/03_tool_calls/add_tool.png)
 
 7. Klicke "Add from local instance"
-![alt text](./images/03_tool_calls/from_local.png)
-
+   ![alt text](./images/03_tool_calls/from_local.png)
 
 8. Suche nach "web-search" und füge die beiden tools hinzu
-![alt text](./images/03_tool_calls/web_search.png)
-
+   ![alt text](./images/03_tool_calls/web_search.png)
 
 9. Frage deinen Agenten etwas, z.B.
 
@@ -129,21 +127,19 @@ An Expert Agent that has access to knowledge all around the IKK.
 4. Lade das PDF mit der IKK Satzung herunter. Entweder von [hier](./pdfs/18060-satzung-kv-mit-nachtrag-70.pdf) oder von der Webseite der IKK.
 
 5. Klicke auf "Choose Knowledge"
-![alt text](./images/04_rag/add_kb.png)
+   ![alt text](./images/04_rag/add_kb.png)
 
 6. Klicke auf "Upload files"
-![alt text](./images/04_rag/upload_file.png)
+   ![alt text](./images/04_rag/upload_file.png)
 
 7. Füge das PDF hinzu
-![alt text](./images/04_rag/add_file.png)
+   ![alt text](./images/04_rag/add_file.png)
 
 8. Füge Beschreibung hinzu, z.B. `Satzung der IKK mit Versicherungsbedingungen`
-![alt text](./images/04_rag/add_descr.png)
-
+   ![alt text](./images/04_rag/add_descr.png)
 
 9. Warte bis die Wissensbasis verfügbar ist
-![alt text](./images/04_rag/ready.png)
-
+   ![alt text](./images/04_rag/ready.png)
 
 10. Frage deinen Agenten etwas was in der IKK Satzung steht, z.B.
 
@@ -151,14 +147,14 @@ An Expert Agent that has access to knowledge all around the IKK.
 Wann kann ein Mitglied seinen Tarif kündigen?
 ```
 
-Was fällt auf bezüglich Qualität? 
+Was fällt auf bezüglich Qualität?
 
 #### Exkurs low-code ADK!
 
 Achtung! Für den import-Schritt muss in cloud.ibm.com > Access IAM > Api Keys ein neuer Key angelegt und für das remote genutzt werden.
 
 ```
-orchestrate env add -n remote -u https://api.us-south.watson-orchestrate.cloud.ibm.com/instances/92119551-3f4c-44ff-978c-a639cc3f50f4 
+orchestrate env add -n remote -u https://api.us-south.watson-orchestrate.cloud.ibm.com/instances/92119551-3f4c-44ff-978c-a639cc3f50f4
 
 orchestrate env activate remote
 # enter api key
@@ -302,12 +298,6 @@ flow["Sonstiges Agent"].output.value or flow["Kostenuebernahme Agent"].output.va
   - Verändere die Prompts
   - Verändere das Behaviour
 
-### Multi-Agent
+### BONUS: Multi-Agent
 
 Erstelle einen Agenten, der mehrere Expertenagenten nutzt um eine Frage zu beantworten.
-
-## TODO
-
-- Agentflow bschreiben
-- login über ibm cloud dokumentieren
-- create ikk5-ikk13
