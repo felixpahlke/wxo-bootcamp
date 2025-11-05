@@ -23,6 +23,8 @@ Die Mail sollte wenn möglich einem Bestimmten Schema folgen:
 - Angemessene Grußformel
 - Anhang (falls vorhanden)
 
+Bitte benutze KEIN markdown.
+
 Anfrage des Users: 
 
 {mail}

@@ -275,10 +275,32 @@ Kannst du mir eine Antwort für folgende Mail schreiben:
 ...
 ```
 
-#### Troubleshooting
+- Füge weitere Experten hinzu.
+- Klicke auf den "Branch" -> klicke "Add path"
+- Die Pfade können bennant werden, benenne sie mit "sonstiges" (für den default path) und "kostenuebernahme" (für den anderen)
+- Klicke "Edit condition" bei "kostenuebernahme"
+- bei "if", klicke "+", wähle den Master Agenten, und dort "output.expert" und dann "==", "kostenuebernahme"
 
-- Was wenn es nicht klappt? :
-  - Output fenster des Prompts nicht groß genug?
+so sollte es aussehen:
+
+![flow condition](/images/04_flows/flow_condition.png)
+
+- Verknüpfe einen weiteren "Generative Prompt" mit dem Path und mache daraus den "Kostenuebernahme Experten", analog zu dem "Sonstiges Agenten"
+- Verknüpfe den Agenten mit dem "Mail Writer"
+- Passe das Data Mapping des "Mail Writers" an
+  - bei analysis klicke auf "Expression" und schreibe:
+
+```python
+flow["Sonstiges Agent"].output.value or flow["Kostenuebernahme Agent"].output.value
+```
+
+- Teste deinen Agenten
+
+- Freies Optimieren:
+  - Füge weitere Experten hinzu
+  - Verändere die LLM Settings
+  - Verändere die Prompts
+  - Verändere das Behaviour
 
 ### Multi-Agent
 
