@@ -11,7 +11,6 @@
   - [Dynamischer Kontext / RAG](#dynamischer-kontext--rag)
   - [Agent Flow / Mail Classification](#agent-flow--mail-classification)
   - [Multi-Agent](#multi-agent)
-- [TODO](#todo)
 
 ## Prerequisites
 
@@ -184,7 +183,7 @@ An agent that can draft responses to incoming insurance related emails.
 ```
 
 - Klicke "Add Tool" -> "Create an agentic workflow"
-- Konfigurire deinen Workflow
+- Konfiguriere deinen Workflow
   - oben links "Edit details"
   - Namen ändern mit Initialien (z.B. mail_expert_flow\_[Deine Initialien])
   - Beschreibung hinzufügen
@@ -284,7 +283,7 @@ so sollte es aussehen:
 - Verknüpfe einen weiteren "Generative Prompt" mit dem Path und mache daraus den "Kostenuebernahme Experten", analog zu dem "Sonstiges Agenten"
 - Verknüpfe den Agenten mit dem "Mail Writer"
 - Passe das Data Mapping des "Mail Writers" an
-  - bei analysis klicke auf "Expression" und schreibe:
+  - Bei analysis klicke auf "Expression" und schreibe:
 
 ```python
 flow["Sonstiges Agent"].output.value or flow["Kostenuebernahme Agent"].output.value
@@ -301,3 +300,5 @@ flow["Sonstiges Agent"].output.value or flow["Kostenuebernahme Agent"].output.va
 ### BONUS: Multi-Agent
 
 Erstelle einen Agenten, der mehrere Expertenagenten nutzt um eine Frage zu beantworten.
+
+**Aufgabe:** Nutze die Agenten aus den vorherigen Übungen und erstelle selbstständig einen Multi-Agent Orchestrator. Füge sie als "Collaborators" einem neuen Agenten hinzu und teste ihn mit Beispiel Aufgaben.
