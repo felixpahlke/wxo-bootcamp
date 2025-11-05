@@ -1,5 +1,18 @@
 # wxo-bootcamp
 
+## Content Overview
+
+- [Prerequisites](#prerequisites)
+  - [Get Access to watsonx Orchestrate](#get-access-to-watsonx-orchestrate)
+- [Bootcamp](#bootcamp)
+  - [Just Chat](#just-chat)
+  - [Statischer Kontext](#statischer-kontext)
+  - [Dynamischer Kontext / Tool Call](#dynamischer-kontext--tool-call)
+  - [Dynamischer Kontext / RAG](#dynamischer-kontext--rag)
+  - [Agent Flow / Mail Classification](#agent-flow--mail-classification)
+  - [Multi-Agent](#multi-agent)
+- [TODO](#todo)
+
 ## Prerequisites
 
 ### Get Access to watsonx Orchestrate
@@ -116,7 +129,7 @@ Wann kann ein Mitglied seinen Tarif kündigen?
 Erstelle einen Agenten, der einen Agent Flow benutzt um Emails zu bearbeiten
 
 - Klicke "Create agent"
-- Nenne deinen Agenten "04_MAIL_AGENT_FP\_[Deine Initialien]"
+- Nenne deinen Agenten "04_MAIL\_[Deine Initialien]"
 - Gib deinem Agenten eine Beschreibung, z.B.:
 
 ```
@@ -124,13 +137,36 @@ An agent that can draft responses to incoming insurance related emails.
 ```
 
 - Klicke "Add Tool" -> "Create an agentic workflow"
+- Konfigurire deinen Workflow
+  - oben links "Edit details"
+  - Namen ändern (z.B. Mail Expert Flow)
+  - Beschreibung hinzufügen
+
+```
+This flow drafts a response email to an insurance related mail from a customer to an insurance company.
+```
+
+- Füge eine Input variable: **mail** vom typ string hinzu und gib ihr eine Beschreibung, z.B.:
+
+```
+The customers mail that should be answered.
+```
+
+- Füge eine Output variable: **mail_response_draft** vom typ string hinzu und gib ihr eine Beschreibung, z.B.:
+
+```
+The draft of the response mail to the customer
+```
+
+- Klicke "Save"
+- Klicke auf den Pfad zwischen "inputs" und "outputs"
 
 - Was wenn es nicht klappt? :
   - Output fenster des Prompts nicht groß genug?
 
 ### Multi-Agent
 
-Erstelle einen Agenten, der einen Expertenagenten nutzt um eine Frage zu beantworten.
+Erstelle einen Agenten, der mehrere Expertenagenten nutzt um eine Frage zu beantworten.
 
 ## TODO
 
