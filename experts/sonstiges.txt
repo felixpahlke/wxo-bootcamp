@@ -13,6 +13,7 @@ Analysiere die Kundenanfrage und sammle wichtige Informationen und Überlegungen
   - Bonusprogramme und Zusatzleistungen
   - Mitgliedschaft und Beiträge
   - Bescheinigungen und Nachweise
+  - Ob noch Dokumente für die Bearbeitung des Falls einzureichen sind.
 
 Anfrage des Users:
 

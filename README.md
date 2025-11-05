@@ -139,7 +139,7 @@ An agent that can draft responses to incoming insurance related emails.
 - Klicke "Add Tool" -> "Create an agentic workflow"
 - Konfigurire deinen Workflow
   - oben links "Edit details"
-  - Namen ändern (z.B. Mail Expert Flow)
+  - Namen ändern mit Initialien (z.B. mail_expert_flow\_[Deine Initialien])
   - Beschreibung hinzufügen
 
 ```
@@ -160,6 +160,71 @@ The draft of the response mail to the customer
 
 - Klicke "Save"
 - Klicke auf den Pfad zwischen "inputs" und "outputs"
+- Füge einen "Generative Prompt" hinzu
+- Nenne ihn "Master Agent"
+
+> Diese Node wird unser "Klassifizierer", der entscheiden soll, welcher Experte zu der Mail befragt werden soll
+
+- Gehe zu "Prompt Settings"
+- Füge eine input variable hinzu (mail)
+- Wähle ein starkes Model, z.B. (llama-4-maverick-17b-128e-instruct)
+- Gehe zu "Adjust LLM Settings" und stelle das Token-window auf max: 2000
+- Befülle das System Prompt Feld mit dem text aus [master.txt](/experts/master.txt)
+- Wähle "Output als Objekt"
+- Nenne es "output"
+- Definiere das Schema:
+
+```
+{
+    "expert": {
+        "type": "string"
+    }
+}
+```
+
+- Setze einen Wert für den "test value" von dem mail input, z.B. den Text aus [mail-1](/example-mails/mail_1_kostenuebernahme.txt)
+- Teste deinen Agenten mit "Generate Preview"
+- Als output solltest du sowas sehen:
+
+```
+{
+  "expert": "kostenuebernahme"
+}
+```
+
+- Schließe den "Master Agenten"
+- Klicke nochmal auf den "Master Agenten" und wähle "Edit Data Mapping"
+- Anstelle von "Auto-map" wollen wir die Flow-Input Variable "mail" auswählen
+  - Klicke auf "Variable" -> Input -> mail
+  - Schließe das Input Mapping
+- Klicke auf den Pfad zwischen "output" und "Master Agent"
+  - Füge einen "Branch" hinzu
+  - Lösche vorerst "Path 1", wir arbeiten erstmal nur mit dem "default" Branch
+- Über "add" füge einen weiteren "Generative Prompt" hinzu
+  - Nenne ihn "Sonstiges Agent"
+  - Setze auch den mail Input parameter, model und LLM Settings
+  - Setze den System Prompt aus [sonstiges](/experts/sonstiges.txt)
+  - Konfigurire die Datamappings zu Input -> Mail
+- Füge einen weiteren "Generative Prompt" nach dem "Sonstiges Agenten" hinzu
+- Nenne ihn "Mail Writer"
+  - Setze 2 Input parameter: mail & analysis
+  - Setze das System Prompt [mail](/experts/mail_answer.txt)
+  - Datamapping:
+    - Mail sollte die mail aus dem Input sein
+    - Analysis sollte der "value" vom "Sonstiges Agenten" sein
+- Konfiguriere das Datamapping vom Output
+  - setze mail_response_draft auf den "value" vom Mail Writer
+- Clicke **DONE** oben rechts im Flow
+
+- Teste deinen Agenten mit einer Beispiel Mail, z.B.:
+
+```
+Kannst du mir eine Antwort für folgende Mail schreiben:
+
+...
+```
+
+#### Troubleshooting
 
 - Was wenn es nicht klappt? :
   - Output fenster des Prompts nicht groß genug?
