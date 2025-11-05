@@ -1,0 +1,32 @@
+E-Mail Kontaktformular
+ 
+Anrede Herr
+Vorname          Michael
+Name   XYZ
+Versichertennummer     I12356789
+Straße An der Strasse
+Hausnummer    1
+Postleitzahl       17033
+Ort       Neubrandenburg
+E-Mailadresse Michael_XYZ_@web.de
+ 
+Personenkreis Arbeitnehmer/Leistungsbezieher Arbeitsamt
+Themenbereich             Mitgliedschaft
+Thema Mitgliedschaft    nähere Angaben
+Thema Beiträge/Meldungen      nähere Angaben
+Thema Leistungen        nähere Angaben
+Thema Verträge            nähere Angaben
+Thema Zusatzangebote            nähere Angaben
+Thema Vorsorgeleistungen       nähere Angaben
+Thema Pflegeversicherung        nähere Angaben
+Thema Sonstiges          nähere Angaben
+Nachricht          Guten Tag,
+ 
+ich möchte mich bei Ihnen über die Kündigungsfristen informieren da mein Angestelltenverhältnis 06.2025 endet und ich mich zum 01.07.2025 selbstständig mache und dabei in die Private Krankenversicherung wechseln möchte. Meine Mitgliedsnummer lautet I12356789
+ 
+Mit freundlichen Grüßen
+ 
+Michael XYZ
+Datenverarbeitung und -speicherung     Ich stimme der Datenschutzerklärung der Innovationskasse sowie der Speicherung und Verarbeitung meiner Daten zum genannten Zweck zu. Die Daten der Webseite werden maximal sechs (6) Monate gespeichert. Eine längere Speicherung der gemeldeten Daten kann im Rahmen der Aufgabenerfüllung für einen längeren Zeitraum als sechs (6) Monate erfolgen. Eine Weitergabe an Dritte ist ausgeschlossen. Weitere Informationen sowie die Möglichkeit zum Widerruf finden Sie unter folgendem Link:
+Kontaktaufnahme          Ich stimme der Kontaktaufnahme (schriftlich oder per E-Mail) durch die IK zum genannten Zweck zu.
+Ich bin kein Roboter! (bitte Aufgabe lösen und Ergebnis eintragen)         15
