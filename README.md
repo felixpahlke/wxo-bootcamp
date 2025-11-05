@@ -76,17 +76,14 @@ Was fällt auf?
 
 #### Erstellen einen Agenten, der auf das Internet zugreifen kann und Fragen zu aktuellen Themen beantworten kann.
 
-- Klicke "Create agent"
-- Gib deinem Agenten eine Beschreibung, z.B.:
-
-```
-An Agent that can search the web and answer questions on anything that we can find on the web.
-```
-
-- Wähle ein Model aus ("llama-3-405b-instruct")
-- Klicke "Add Tool"
-- Klicke "Add from local instance"
-- Suche nach "web-search" und füge die beiden tools hinzu
+1. Klicke "Create agent"
+2. Gib deinem Agenten eine Beschreibung, z.B.:
+`An Agent that can search the web and answer questions on anything that we can find on the web.
+`
+3. Wähle ein Model aus ("llama-3-405b-instruct")
+4. Klicke "Add Tool"
+5. Klicke "Add from local instance"
+6. Suche nach "web-search" und füge die beiden tools hinzu
 - Frage deinen Agenten etwas, z.B.
 
 ```
@@ -134,3 +131,10 @@ An agent that can draft responses to incoming insurance related emails.
 ### Multi-Agent
 
 Erstelle einen Agenten, der einen Expertenagenten nutzt um eine Frage zu beantworten.
+
+
+## TODO
+
+* RAG auf knowledge umstellen
+* Agentflow bschreiben
+* login über ibm cloud dokumentieren
