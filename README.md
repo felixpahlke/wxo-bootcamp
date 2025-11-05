@@ -116,7 +116,7 @@ Was sind neueste Nachrichten über Trump?
 
 ### Dynamischer Kontext / RAG
 
-Erstelle einen Agenten, der Fragen aus Kontext aus einer Textdatei beantwortet.
+Erstelle einen Agenten, der Fragen aus Kontext aus eines PDF beantwortet.
 
 1. Klicke "Create agent"
 2. Nenne deinen Agenten "03_RAG\_[Deine Initialien]"
@@ -153,7 +153,9 @@ Wann kann ein Mitglied seinen Tarif kündigen?
 
 Was fällt auf bezüglich Qualität? 
 
-Exkurs low-code ADK!
+#### Exkurs low-code ADK!
+
+Achtung! Für den import-Schritt muss in cloud.ibm.com > Access IAM > Api Keys ein neuer Key angelegt und für das remote genutzt werden.
 
 ```
 orchestrate env add -n remote -u https://api.us-south.watson-orchestrate.cloud.ibm.com/instances/92119551-3f4c-44ff-978c-a639cc3f50f4 
